@@ -25,7 +25,7 @@ def required_agents(call_volume, aht, service_level, shrinkage):
     return agents, adjusted_agents
 
 # Streamlit UI
-st.title("📞 Call Center Staffing Calculator")
+st.title("📞 Contact Center Staffing Calculator")
 
 # Inputs
 call_volume = st.number_input("📈 Calls per Hour", min_value=1, value=100)
